@@ -37,7 +37,7 @@ function wpdb_shortcodes_func( $atts, $content = null ) {
 	$content = '<p>Hello, world!</p>';
 	
 	# Return content
-	return( do_shortcode( $content );
+	return( do_shortcode( $content ) );
 }
 add_shortcode( 'wpdb-shortcodes', 'wpdb_shortcodes_func' );
 
